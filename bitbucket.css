@@ -1,0 +1,36 @@
+:root {
+  --anon-pr-hide: black;
+}
+
+#pullrequest-author a span:last-child {
+  color: var(--anon-pr-hide) !important;
+  background-color: var(--anon-pr-hide) !important;
+}
+
+.aui-avatar {
+  background-color: var(--anon-pr-hide) !important;
+}
+
+.aui-avatar * {
+  visibility: hidden;
+}
+
+.author-name {
+  color: var(--anon-pr-hide) !important;
+  background-color: var(--anon-pr-hide) !important;
+}
+
+.author.inline-user--name a {
+  color: var(--anon-pr-hide) !important;
+  background-color: var(--anon-pr-hide) !important;
+}
+
+[data-qa="pull-request-row"] small a:first-child {
+  color: var(--anon-pr-hide) !important;
+  background-color: var(--anon-pr-hide) !important;
+}
+
+[data-qa="pull-request-row"] a span {
+  background-color: var(--anon-pr-hide) !important;
+  background-image: none !important;
+}
